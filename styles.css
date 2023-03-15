@@ -1,0 +1,84 @@
+body {
+    background-color: cornflowerblue;
+    margin: 0;
+    padding: 7px;
+}
+
+.container {
+    width: 800px;
+    margin: auto;
+}
+
+.day-date-time {
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-family: Orbitron, sans-serif;
+}
+
+.time {
+    font-size: 4em;
+    margin-left: 10px;
+    text-align: left;
+}
+
+.day {
+    margin-top: -150px;
+    padding: 5px;
+    display: block;
+    font-size: 2.35em;
+    text-align: right;
+}
+
+.date {
+    display: block;
+    font-size: 55px;
+    text-align: right;
+    padding: 5px;
+    margin-top: -30px;
+    margin-right: 10px;
+}
+
+.calendar, .button-area {
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-family: Roboto, sans-serif;
+    padding: 5px;
+}
+
+.button-area {
+    margin: auto;
+}
+
+.new-appt-area {
+    align-content: left;
+    text-align: left;
+    display: block;
+    margin-bottom: 10px;    
+}
+
+.return-home {
+    width: 500px;
+    margin: auto;
+    text-align: left;
+    padding: 10px 0;
+    align-content: center;
+}
+
+.form-section {
+    padding: 5px 0 5px 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+}
+
+input {
+    display: block;
+}
+
+select {
+    width: 300px;
+    height: 30px;
+}
+
